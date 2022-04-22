@@ -9,24 +9,25 @@ public class Song {
 	//생성자
 	
 	//메소드 - gs
-	public void setTitle(String e) {
-		title = e;//노래제목
+	public void setTitle(String title) {
+		this.title = title;//노래제목
 	}
-	public void setArtist(String t) {
-		artist = t;//가수
+	public void setArtist(String artist) {
+		this.artist = artist;//가수
 	}
-	public void setAlbum(String m) {
-		album = m;//앨범제목
+	public void setAlbum(String album) {
+		this.album = album;//앨범제목
 	}
 	public void setComposer(String c) {
-		composer = c;//작곡가
+		this.composer = composer;//작곡가
 	}
 	public void setYear(int y) {
-		year = y;//연도
+		this.year = year;//연도
 	}
-	public void setTrack(int k) {
-		track = k;//트랙번호
+	public void setTrack(int track) {
+		this.track = track;//트랙번호
 	}
+	
 	public String getTitle() {
 		return title;
 	}
