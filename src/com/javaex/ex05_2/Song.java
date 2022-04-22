@@ -52,5 +52,12 @@ public class Song {
 		System.out.print(artist+ "," +title+ "(" +album+ "," +year+ "," +track+ "번 track," +composer+ "작곡)" );
 		System.out.println("");
 	}
+	//임시로 찍어보기
+	@Override
+	public String toString() {
+		return "Song [title=" + title + ", artist=" + artist + ", album=" + album + ", composer=" + composer + ", year="
+				+ year + ", track=" + track + "]";
+	}
+	
 	
 }
