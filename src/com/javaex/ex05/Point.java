@@ -7,9 +7,9 @@ public class Point {
 	private int y;
 	//생성자
 	
-	//메소드 - gs
-	public void satX(int w) {
-		x = w;
+	//메소드 - gs  *this.필드이름(메타몽 같은존재)
+	public void satX(int w) {//int x
+		x = w; //this.x=x;
 	}
 	public void satY(int l) {
 		y = l;
