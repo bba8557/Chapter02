@@ -9,23 +9,23 @@ public class Song {
 	//생성자
 	
 	//메소드 - gs
-	public void setTitle(String title) {
-		this.title = title;//노래제목
+	public void setTitle(String t) {
+		title = t;//노래제목
 	}
-	public void setArtist(String artist) {
-		this.artist = artist;//가수
+	public void setArtist(String a) {
+		artist = a;//가수
 	}
-	public void setAlbum(String album) {
-		this.album = album;//앨범제목
+	public void setAlbum(String m) {
+		album = m;//앨범제목
 	}
 	public void setComposer(String c) {
-		this.composer = composer;//작곡가
+		composer = c;//작곡가
 	}
 	public void setYear(int y) {
-		this.year = year;//연도
+		year = y;//연도
 	}
-	public void setTrack(int track) {
-		this.track = track;//트랙번호
+	public void setTrack(int k) {
+		track = k;//트랙번호
 	}
 	
 	public String getTitle() {
@@ -52,12 +52,5 @@ public class Song {
 		System.out.print(artist+ "," +title+ "(" +album+ "," +year+ "," +track+ "번 track," +composer+ "작곡)" );
 		System.out.println("");
 	}
-	//임시로 찍어보기
-	@Override
-	public String toString() {
-		return "Song [title=" + title + ", artist=" + artist + ", album=" + album + ", composer=" + composer + ", year="
-				+ year + ", track=" + track + "]";
-	}
-	
 	
 }

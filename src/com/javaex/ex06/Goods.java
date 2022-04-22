@@ -6,11 +6,11 @@ public class Goods {
 		private String name;
 		private int price;
 		
-		//생성자 void..등등 쓸수없다 
+		//생성자 void..등등 쓸수없다 alt+shit+s = Generate Constructor using Fields
 		public Goods() {
 			//*****메모리에 올리는일을한다(클래스를 인스턴스화)
 			//로직추가가능(추가가없다면 굳이 안써도됨 알아서 만들어줌)
-		}
+		}//만들면 기본은 자동기능없어짐 불필요시 제거가능
 		public Goods(String name) {
 			//*****메모리에 올리는일을한다(클래스를 인스턴스화)
 			//추가로직
