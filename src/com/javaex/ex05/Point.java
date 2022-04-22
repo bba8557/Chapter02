@@ -8,16 +8,16 @@ public class Point {
 	//생성자
 	
 	//메소드 - gs
-	public void satWidth(int w) {
+	public void satX(int w) {
 		x = w;
 	}
-	public void satLength(int l) {
+	public void satY(int l) {
 		y = l;
 	}
-	public int getWidth() {
+	public int getX() {
 		return x;
 	}
-	public int getLength() {
+	public int getY() {
 		return y;
 	}
 	//메소드 - 일반

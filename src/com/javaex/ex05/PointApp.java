@@ -5,13 +5,13 @@ public class PointApp {
 	public static void main(String[] args) {
 		
 		Point small = new Point();
-		small.satWidth(5);
-		small.satLength(5);
+		small.satX(5);
+		small.satY(5);
 		small.draw();
 		
 		Point big = new Point();
-		big.satWidth(10);
-		big.satLength(23);
+		big.satX(10);
+		big.satY(23);
 		big.draw();
 	}
 
