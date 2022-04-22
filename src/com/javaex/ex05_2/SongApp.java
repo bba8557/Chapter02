@@ -1,4 +1,4 @@
-package com.javaex.ex06;
+package com.javaex.ex05_2;
 
 public class SongApp {
 

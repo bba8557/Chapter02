@@ -7,12 +7,17 @@ public class Goods {
 	private int price;
 	//생성자
 	
-	//메소드 - gs
-	public void setName(String n) {
-		name = n;
+	//메소드 - gs // alt+shift+s 메소드 gs 자동 생성(필드지정후)
+	public void setName(String name) {
+		this.name = name;
 	}
-	public void setPrice(int p) {
-		price = p;
+	public void setPrice(int price) {
+		if(price<0) {
+			this.price=0;
+		}else {
+			this.price = price;
+		}//-값이오면 0으로 출력
+		
 	}
 	public String getName() {
 		return name;

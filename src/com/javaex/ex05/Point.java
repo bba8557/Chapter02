@@ -8,21 +8,26 @@ public class Point {
 	//생성자
 	
 	//메소드 - gs  *this.필드이름(메타몽 같은존재)
-	public void satX(int w) {//int x
-		x = w; //this.x=x;
+	
+	public void setX(int x) {
+		this.x = x;
 	}
-	public void satY(int l) {
-		y = l;
+	public void setY(int y) {
+		this.y = y;
 	}
+	
 	public int getX() {
 		return x;
 	}
 	public int getY() {
 		return y;
 	}
+	
 	//메소드 - 일반
 	public void draw() {
 		System.out.println("점[x="+x+", y="+y+"]을 그렸습니다.");
 	}
+
+	
 
 }
