@@ -11,7 +11,7 @@ public class SongApp {
 		iu.setComposer("이민수");
 		iu.setYear(2010);
 		iu.setTrack(3);
-		iu.showlfo();
+		iu.showInfo();
 		
 		Song big = new Song();
 		big.setArtist("BIGBANG");
@@ -20,7 +20,7 @@ public class SongApp {
 		big.setComposer("G-DRAGON");
 		big.setYear(2007);
 		big.setTrack(2);
-		big.showlfo();
+		big.showInfo();
 		
 		Song busker = new Song();
 		busker.setArtist("버스커버스커");
@@ -29,7 +29,7 @@ public class SongApp {
 		busker.setComposer("장범준");
 		busker.setYear(2012);
 		busker.setTrack(4);
-		busker.showlfo();
+		busker.showInfo();
 	}
 
 }

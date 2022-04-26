@@ -48,7 +48,7 @@ public class Song {
 	}
 	
 	//메소드 - 일반
-	public void showlfo() {
+	public void showInfo() {
 		System.out.print(artist+ "," +title+ "(" +album+ "," +year+ "," +track+ "번 track," +composer+ "작곡)" );
 		System.out.println("");
 	}

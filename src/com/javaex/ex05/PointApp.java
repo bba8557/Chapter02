@@ -21,9 +21,13 @@ public class PointApp {
 		p4.setY(200);
 		p4.draw();
 		
+		//y값을 먼저 넣고
+		//setter x값을 넣는다
 		Point p5 = new Point(200);//y값먼저줌
 		p5.setX(100);
 		p5.draw();
+		
+		p1.draw(false); //지우기
 	}
 
 }
