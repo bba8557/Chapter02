@@ -38,9 +38,11 @@ public class Shape {
 	public String toString() {
 		return "Shape [fillColor=" + fillColor + ", lineColor=" + lineColor + "]";
 	}
-	//도형이 안정해져서 배경색을 변경함 - ?
-	/*public void draw() {
-		System.out.println("[면색:"+fillColor+", 선색:"+lineColor+"] 도형을 그렸습니다.");
-	}*/
-	
+	//도형이 안정해져서 배경색을 변경함 - 오버라이딩 때문에 만들어줌
+	public void draw() {
+		//System.out.println("[면색:"+fillColor+", 선색:"+lineColor+"] 도형을 그렸습니다.");
+	}
+	public double area() {
+		return 0;
+	}
 }

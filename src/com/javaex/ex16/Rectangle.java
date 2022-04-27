@@ -47,6 +47,10 @@ public class Rectangle extends Shape {
 		System.out.println("[면색:"+super.fillColor+", 선색:"+super.lineColor+", 가로:"+this.width+", 세로:"+this.height+"] 사각형을 그렸습니다.");
 	}
 	
+	public double area() {
+		double area = width * height;
+		return area;
+	}
 	
 	
 	

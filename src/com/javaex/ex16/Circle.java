@@ -10,7 +10,7 @@ public class Circle extends Shape {
 		
 	}
 	
-	public Circle(String fillcolor, String lineColor, int radius) {
+	public Circle(String fillColor, String lineColor, int radius) {
 		super();
 		super.fillColor = fillColor;
 		super.lineColor = lineColor;
@@ -32,5 +32,10 @@ public class Circle extends Shape {
 	}
 	public void draw() {
 		System.out.println("[면색:"+fillColor+", 선색:"+lineColor+", 반지름:"+radius+"] 원을 그렸습니다.");
+	}
+	
+	public double area() {
+		double area = 3.14*radius*radius;
+		return area;
 	}
 }
