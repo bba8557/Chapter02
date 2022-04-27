@@ -1,10 +1,10 @@
 package com.javaex.ex08;
 
-public class TVApp {
+public class TvApp {
 
 	public static void main(String[] args) {
 		
-		TV tv = new TV(7, 20, false);
+		Tv tv = new Tv(7, 20, false);
 		
 		/*
 		 * tv.status();
